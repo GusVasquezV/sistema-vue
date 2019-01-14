@@ -16,19 +16,19 @@
             <h1>Contenido menu 3</h1>
     </template>
     <template v-if="menu==4">
-            <h1>Contenido menu 4</h1>
+            <proveedor></proveedor>
     </template>
     <template v-if="menu==5">
             <h1>Contenido menu 5</h1>
     </template>
     <template v-if="menu==6">
-            <h1>Contenido menu 6</h1>
+            <cliente></cliente>
     </template>
     <template v-if="menu==7">
-            <h1>Contenido menu 7</h1>
+            <user></user>
     </template>
     <template v-if="menu==8">
-            <h1>Contenido menu 8</h1>
+            <rol></rol>
     </template>
     <template v-if="menu==9">
             <h1>Contenido menu 9</h1>

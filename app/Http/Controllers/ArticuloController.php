@@ -56,6 +56,7 @@ class ArticuloController extends Controller
     public function update(Request $request)
     {
         if(!$request->ajax()) return redirect('/');
+        
         $articulo = Articulo::findOrFail($request->id);
         $articulo->idcategoria = $request->idcategoria;
         $articulo->codigo = $request->codigo;
